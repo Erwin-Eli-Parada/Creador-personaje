@@ -1,0 +1,166 @@
+.cabecera{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 1% 0%;
+}
+
+.cabecera #logo{
+    margin-left: 35%;
+    /*padding-top: .5%;*/
+    width: 15%;
+    min-width: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cabecera hgroup{
+    padding: 0% 1%;
+}
+
+.cabecera #foto{
+    margin-left: 17%;
+    /*width: 8%;*/
+    height: 70px;
+    min-width: 50px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 12px;
+    line-height: 50px;
+    background: white;
+}
+
+#nombre_usuario{
+    font-size: calc(.5em + .75vw);
+}
+
+#wrapper_cabecera{
+    background: linear-gradient(270deg, #BA1B1A, #e05757);
+}
+
+.cuerpo{
+    background-color: #474747;
+}
+
+.titulo_principal{
+    font-size: calc(1em + 1vw);
+    font-family: Inknut Antiqua;
+    text-align: center;
+    margin: 0;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.subtitulo_principal{
+    font-size: calc(.25em + .5vw);
+    font-family: Inknut Antiqua;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    background-color: #FAF1C0;
+    display: block;
+}
+
+#menu{
+    padding: 1% 0%;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5%;
+    font-size: calc(.5em + 1vw);
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    transition: transform .5s ease-in-out 0s;
+}
+
+#menu li:hover{
+    transform: scale(1.25);
+}
+
+section{
+    background-color: #FAF1C0;
+    margin: 1% 2%;
+
+}
+
+#referencias{
+    align-content:center;
+    width: 100%;
+    display: inline-block;
+    /*padding-top: 5%;
+    padding-bottom: 5%;*/
+}
+
+.referencias{
+    display: inline-block;
+    align-items: center;
+    float: left;
+    width: 30%;
+    margin: 2% 1%;
+    border: solid gray;
+    border-radius: 8%;
+    background: #474747;
+    box-shadow: grey -0.1em -0.1em 0.2em;
+}
+
+.contenedor_imagen{
+    width: 96%;
+    height: 90%;
+    /*display: block;
+    max-width: 960px;
+    margin: 0 auto;*/
+}
+
+#img1{
+    margin: 7% 0;
+}
+
+#img2{
+    margin: 30.5% 0;
+}
+
+#img3{
+    margin: 24% 0;
+}
+
+.imagen{
+    width: 70%;
+    height: auto;
+    transition: transform .5s ease-in-out 0s;
+}
+
+.imagen:hover{
+    transform: scale(1.10);
+}
+
+.contenedor_texto{
+    height: 10%;
+}
+
+.links{
+    font-size: 100%;
+    color: white;
+}
+
+#bienvenida{
+    font-family: 'Rubik', sans-serif;
+    font-size: 150%;
+    padding: 2% 0%;
+}
+
+footer{
+    background: linear-gradient(270deg, #BA1B1A, #e05757);
+    padding: .5% 0%;
+}
+
+#desarrolladora{
+    font-size: 100%;
+}
