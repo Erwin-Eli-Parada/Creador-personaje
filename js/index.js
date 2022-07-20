@@ -3,10 +3,10 @@ function noImplementado(){
 }
 
 function hacerclick(){
-    var opciones=document.querySelectorAll("#menu li");
+    var opciones=document.querySelectorAll("#nombre_usuario");
     for(var f=0; f<opciones.length;f++){
-        opciones[f].onclick=noImplementado;
+        opciones[f].addEventListener("click",noImplementado,false);
     }
 }
 
-window.onload=hacerclick;
+window.addEventListener("load",hacerclick,false);
