@@ -1,3 +1,4 @@
+/*
 function iniciar() {
     var usuario = document.getElementById("usuario");
     var password = document.getElementById("password");
@@ -26,6 +27,23 @@ function validacion2(){
     }else{
         password.setCustomValidity("");
         password.style.background = "#FFFFFF";
+    }
+}
+*/
+
+function  iniciar(){
+    document.formulario.addEventListener("input", controlar, false);
+}
+
+function controlar(e){
+    var elemento=e.target;
+    var valido=document.informacion.checkValidity();
+
+    if(valido){
+        document.informacion.submit();
+    }else if(elemento.validity.valueMissing){
+        elemento.setCustomValidity("Campo requerido");
+        elemento.style.background="#FFDDDD";
     }
 }
 
