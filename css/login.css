@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: #474747;
+    background-image: url("https://www.havocpoint.it/wp-content/uploads/2019/07/1fb8a0be34ecfa010ae00790cbe18670.jpg");
+}
+
+#formulario{
+    background: linear-gradient(270deg, #BA1B1A, #e05757);
+    margin: auto;
+    padding: 2%;
+    text-align: center; 
+}
+
+h2{
+    padding: 10%;
+}
+
+input{
+    display: flex;
+    width: 100%;
+    padding: 4% 0;
+    margin: 12% 0;
+    background-color: rgb(210, 199, 199);
+}
+
+input[type="submit"]{
+    padding: 4% 36%;
+    background-color: #d0b22a;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    opacity: 1;
+}
+
+input[type="submit"]:active{
+    transform: scale(0.9);
+}

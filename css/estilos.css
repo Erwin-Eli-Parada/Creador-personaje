@@ -39,8 +39,9 @@
     background: linear-gradient(270deg, #BA1B1A, #e05757);
 }
 
-.cuerpo{
+body{
     background-color: #474747;
+    min-height: 100vh;
 }
 
 .titulo_principal{
