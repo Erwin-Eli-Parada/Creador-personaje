@@ -6,4 +6,4 @@ $uriParts = explode('/',$uri);
 
 array_shift($uriParts);
 
-include("dev/views/index.html");
+include("views/index.html");
