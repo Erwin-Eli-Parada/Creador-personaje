@@ -41,6 +41,7 @@ function controlar(e){
 
     if(valido){
         document.informacion.submit();
+        
     }else if(elemento.validity.valueMissing){
         elemento.setCustomValidity("Campo requerido");
         elemento.style.background="#FFDDDD";

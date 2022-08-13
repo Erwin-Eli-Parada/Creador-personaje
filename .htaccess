@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^/?$ login.php
+
+RewriteRule ^Inicio?$ index.php
+
+RewriteRule ^Creador?$ creador.php
