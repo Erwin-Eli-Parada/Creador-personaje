@@ -6,3 +6,11 @@ RewriteRule ^/?$ login.php
 RewriteRule ^Inicio?$ index.php
 
 RewriteRule ^Creador?$ creador.php
+
+RewriteRule ^Mapas?$ mapas.php
+
+RewriteRule ^Misiones?$ misiones.php
+
+RewriteRule ^Reglas?$ reglas.php
+
+RewriteRule ^Tablas?$ tablas.php
