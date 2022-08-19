@@ -1,5 +1,9 @@
 <?php
-
+session_start();
+$usuario = $_SESSION['Usuario'];
+if(!isset($_SESSION['login'])){
+    header("location:login.php");
+}
 //importamos la clase de inicio de la app
 require_once('app.class.php');
 //importamos la clase de template
@@ -10,7 +14,7 @@ $child = new Template("views/creador.html");
 
 //incluyo la vista de inicio para crear la ruta de carpetas falsas
 $view = new Template("views/template.html", [
-    "nombre" => "Erwin Eli",
+    "nombre" => $usuario,
     "child" => $child
 ]);
 
