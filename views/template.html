@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="descripcion" content="Pagina para la creacion de personajes de d&d"/>
+        <meta name="keywords" content="d&d,creacion de personajes,juego de rol"/>
+        <title>custom20</title>
+        <link rel="stylesheet" href="css/normalizador.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="../js/index.js"></script>
+    </head>
+    <body>
+        <head>
+            <div id="wrapper_cabecera">
+                <div class="cabecera">
+                    <figure id="logo">
+                        <img src="https://nacionrolera.org/wp-content/uploads/2018/07/imagen-destacada-1.jpg" width="100%">
+                    </figure>
+                    <hgroup id="titulos">
+                        <h1 class="titulo_principal"><a href="Inicio">CUSTOM20</a></h1>
+                        <h3 class="subtitulo_principal">Tu pagina de creación de personajes</h3>
+                    </hgroup>
+                    <figure id="foto">
+                        <img src="assets/img/usuario2.png" width="100%">
+                    </figure>
+                    <div>
+                        <p id="nombre_usuario"><?= $nombre?></p>
+                    </div>
+                </div>
+            </div>
+        </head>
+        <nav>
+            <ul id="menu">
+                <li><a href="Creador"> Creador de personaje </a></li>
+                <li><a href="Tablas">Tablas</a></li>
+                <li><a href="Reglas">Reglas</a></li>
+                <li><a href="Mapas">Mapas</a></li>
+                <li><a href="Misiones">Misiones</a></li>
+            </ul>
+        </nav>
+        
+        <?= $child ?>
+        
+        <footer>
+            <small id="desarrolladora">by dev3li</small>
+        </footer>
+        
+    </body>
+</html>

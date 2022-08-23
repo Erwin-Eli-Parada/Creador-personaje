@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="descripcion" content="Pagina para la creacion de personajes de d&d"/>
+        <meta name="keywords" content="d&d,creacion de personajes,juego de rol"/>
+        <link rel="stylesheet" href="css/normalizador.css">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="js/login.js"></script>
+    </head>
+    <body>            
+        <form action="<?= $_SERVER['PHP_SELF']; ?>" name="formulario" id="formulario" autocomplete="off" method="post">
+            <h2>Login</h2>
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+            <input type="password" name="password" id="password" placeholder="contraseña" required>
+            <input name="ingreso" type="submit" value="Ingresar">
+        </form>
+    </body>
+</html>
